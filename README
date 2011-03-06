@@ -1,0 +1,12 @@
+JavaScript OAuth 1.0 Testing Tool
+
+A very simple single-screen OAuth 1.0 tesing tool written in JavaSscript.
+Based on the JS library OAuthSimple: https://github.com/jrconlin/oauthsimple/
+and the NetFlix OAuth Test Page: http://developer.netflix.com/resources/OAuthTest
+This script also uses jQuery 1.4.1 which we is also bundled in this repo.
+
+With just your API Key, Shared Secret, Path (URL to API call) you should be
+able to Generate a Signed Call (signature of your API call, keys, and nonce
+value, and epoch time). Once that signed call is made, you can Execute Live Call.
+If everything checks out, the API response will display in an IFRAME on the
+right side of the browser window.
